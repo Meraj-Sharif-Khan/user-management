@@ -1,0 +1,85 @@
+
+/* login group */
+
+
+
+@media screen and (min-width: 1080px) {
+    .login-group{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+/* login container */
+.login-container{
+    background-color: #fff;
+    padding: 2rem;
+    height: 100vh;
+    position: relative;
+}
+
+
+.login-container--brand{
+    width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+    
+    
+    .login-container--brand{
+        width: 150px;
+    }
+}
+@media screen and (min-width: 1080px) {
+    
+    
+    .login-container--brand{
+        width: 200px;
+    }
+    .login-container{
+        width:50%;
+       
+    }
+}
+
+
+/* login-Form */
+@media screen and (min-width: 768px) {
+    .login-form{
+            padding: 10%;
+    }
+    
+}
+@media screen and (min-width: 1080px) {
+    .login-form{
+            padding: 14%;
+    }
+    
+}
+
+/* help links */
+
+    .help-links{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+    }
+    
+
+.help-links--sign-up{
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+
+
+@media screen and (min-width: 1080px) {
+    .login-background{
+        background-image: url(/loginbg.webp);
+        width: 50%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    
+}
